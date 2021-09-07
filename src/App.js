@@ -41,10 +41,14 @@ function App() {
             <div className="galleryItem-container">
 
                 <div className="img-container">
-                     <img src={image.pic} alt="logo" onClick={()=>setSelectedImage(image)}/>
+                     <img src={image.pic} alt="logo" onClick={()=>setSelectedImage(image.pic)}/>
                 </div>
-                <div className="siteTxt-container">{image.site}</div>
-                <div className="siteDescTxt-container">{image.desc}</div>
+
+               
+                  <div className="siteTxt-container">{image.site}</div>
+                  <div className="siteDescTxt-container">{image.desc}</div>
+               
+              
             </div>
 
           )
