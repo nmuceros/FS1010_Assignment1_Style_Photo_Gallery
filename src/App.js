@@ -40,7 +40,7 @@ function App() {
 
             <div className="galleryItem-container">
 
-                   <img src={image.pic} alt="logo" onClick={()=>setSelectedImage(image.pic)}/>
+                  <img className="img" src={image.pic} alt="logo" onClick={()=>setSelectedImage(image.pic)}/>
                   <div className="imgOverlay imgOverlayGradient"> 
                       <div className="siteTxt-container">{image.site}</div>
                       <div className="siteDescTxt-container">{image.desc}</div>
@@ -49,9 +49,16 @@ function App() {
           )
         }
       </section>
-      <div id='overlay' style={{visibility: selectedImage ? 'visible': 'hidden'}}>
-        <h1><a class="close" onClick={ ()=>setSelectedImage(null) }>X</a></h1>
+      <div id='overlay' 
+          style={{
+            visibility: selectedImage ? 'visible': 'hidden',
+            background: "linear-gradient(45deg, rgba(29, 236, 197, 0.9), rgba(91, 14, 214, 0.7) 100%)"
+            /*background: "linear-gradient(to right bottom, rgba(255, 255, 255, 1) 50%, rgba(0, 0, 0, 0) 100%)"*/
+            
+          }}>TEXT HERE
+        <h1 className="closeDisplay"><a class="close" onClick={ ()=>setSelectedImage(null) }>X</a></h1>
         <img src={selectedImage} />
+        
       </div>
     </div>
   );
