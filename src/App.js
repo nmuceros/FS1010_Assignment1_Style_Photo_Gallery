@@ -41,7 +41,7 @@ function App() {
             <div className="galleryItem-container">
 
                   <img className="img" src={image.pic} alt="logo" onClick={()=>setSelectedImage(image.pic)}/>
-                  <div className="imgOverlay imgOverlayGradient"> 
+                  <div className="imgTxt-container"> 
                       <div className="siteTxt-container">{image.site}</div>
                       <div className="siteDescTxt-container">{image.desc}</div>
                   </div>
