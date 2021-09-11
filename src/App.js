@@ -7,7 +7,7 @@ import image4 from '../src/images/rom.jpg';
 import image5 from '../src/images/rogers-center.jpg';
 import image6 from '../src/images/new-city-hall.jpg';
 import twitter from '../src/images/twitter.svg';
-import facebook from '../src/images/facebook.svg';
+import facebook from '../src/images/facebook2.svg';
 import linkedin from '../src/images/linkedin.svg';
 import instagram from '../src/images/instagram.svg';
 
