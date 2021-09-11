@@ -27,10 +27,10 @@ function App() {
   ];
 
   const social = [
-    {icon: twitter, link: "https://twitter.com/?lang=en"},
-    {icon: facebook, link: "https://www.facebook.com/"},
-    {icon: linkedin, link: "https://ca.linkedin.com/"},
-    {icon: instagram, link: "https://www.instagram.com/"}];
+    {icon: twitter, link: "https://twitter.com/cityoftoronto?lang=en"},
+    {icon: facebook, link: "https://www.facebook.com/cityofto/"},
+    {icon: linkedin, link: "https://ca.linkedin.com/company/city-of-toronto"},
+    {icon: instagram, link: "https://www.instagram.com/explore/locations/212991559/toronto-ontario/?hl=en"}];
 
 
   
