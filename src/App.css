@@ -44,7 +44,7 @@
 .imgTxt-container {
   position: absolute;
   height: auto;
-  width: 70%;
+  width: 100%;
   top: 0;
   bottom: 0;
   /* justify-content: left; */
@@ -62,25 +62,111 @@
 }
 
  .siteTxt-container, .siteDescTxt-container {
+  /* display: flex; */
+  /* justify-content:left; */
   opacity: 1;
   position: absolute;
-  width: 50%;
-  left: 20px;
+  /* overflow: auto; */
+  width: 56%;
+  left: 16px;
+  top: 30px;
   /*width: max-content; /* strect the width to fit the texts */
   /* width: auto; */
-  text-align: left;
+  text-align: left;  
   }
 
 .siteTxt-container {
   font-weight: bold;
-  top: 30px;
+  /* top: 30px; */
 }
+
 
 
  .siteDescTxt-container{
   top: 60px;
 }
  
+
+
+
+p {
+  text-align: left;
+}
+
+.p-historical {
+  color: grey;
+  font-size: calc(12px + 2vmin);
+}
+
+.closeDisplay {
+  text-align: center;
+}
+
+
+.footer {
+  height: 50px;
+  /* background-color: rgb(119, 69, 99);   */
+  background-color: #d5d5d5;  
+  text-align: center;
+  /* color: seashell; */
+  /* color: #d5d5d5; */
+  /* align-items: center; */
+  /* padding-top: 1px; */
+ 
+}
+
+.social-container {
+  position: relative;
+ 
+  width: 100%;
+  height: auto;
+  background-color: #d5d5d5;  
+  /* margin-top: 1%; */
+  /* margin-left: 30%; */
+  /* box-shadow: none; */
+  /*background-color: grey;*/
+  /* background-color: #BBBBBB; */
+  /* border-radius: 10px; */
+  /* border: 1px solid #393E46; */
+  margin-left: 50px;
+  /* margin: 5px; */
+}
+
+
+
+
+.img-social {
+  position: relative;
+  display: flex;
+  /* justify-content: space-around; */
+  justify-content: space-between;
+  float: left;
+  width: 1.5%;
+  height: auto;
+  /* margin-top: 5px; */
+  /*margin-left: 5px;*/
+  color: white;
+  /* opacity: .5; */
+  /* padding: 5px; */
+  /* margin-left: 40px; */
+  /* padding-top: 10px; */
+  /* height: 5%; */
+  /* object-fit: contain; */
+  margin-left: 2%;
+  opacity: 1;
+}
+
+.img-social:hover {
+  opacity: .5;
+  transform: scale(1.5);
+  
+}
+
+/* .social-container:hover {
+  background-color: red;
+
+} */
+
 
 .App {
   text-align: center;
@@ -109,18 +195,6 @@
   font-family: 'Open Sans', sans-serif;  
 }
 
-p {
-  text-align: left;
-}
-
-.p-historical {
-  color: grey;
-  font-size: calc(12px + 2vmin);
-}
-
-.closeDisplay {
-  text-align: center;
-}
 
 .App-link {
   color: #61dafb;
