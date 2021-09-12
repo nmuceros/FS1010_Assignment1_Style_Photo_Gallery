@@ -2,7 +2,7 @@
 /*To use: font-family: 'Open Sans', sans-serif; */
 
 #overlay {
-  background: rgba(0, 0, 0, 0.7);
+  background: rgba(0, 0, 0, 0.8);
   z-Index: 2;
   position: fixed;
   width: 100%;
@@ -11,7 +11,7 @@
   top: 0;
   left: 0;
 
-  overflow: auto;
+  /* overflow: auto; */
 }
 
 .modal-image-container {
@@ -20,11 +20,11 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  border-style: solid;
+  /* border-style: solid;
   border-width: 4x;
-  border-color: white;
-  height: 80%;
-  width: 80%; 
+  border-color: white; */
+  height: 85%;
+  width: 85%; 
 }
 
 #overlay img {
@@ -34,9 +34,13 @@
 
   /* Below are the options how the image will be rendered in modal view */
   /* Not sure what is the requirements for this assignment but I chose fill for now */
-  object-fit: fill;
+  /* object-fit: fill; */
   /* object-fit: cover; */
-  /* object-fit: contain; */
+  object-fit: contain;
+  /* border-style: solid;
+  border-width: 4x;
+  border-color: white; */
+  /* transition: all 2s ease-in; */
 }
 
 

@@ -57,6 +57,7 @@ function App() {
       <div id='overlay' 
           style={{
             visibility: selectedImage ? 'visible': 'hidden',
+            
           }}>
           <a className="modal-closeLink" href="#" onClick={ ()=>setSelectedImage(null) }>Close</a>   
           <div className="modal-image-container">
