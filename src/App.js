@@ -64,19 +64,7 @@ function App() {
       </section>
 
 
-      <footer className="footer"> 
-          <div className="social-container">
-            {
-              social.map(social => 
-                  <div className="social-image-container">
-                    <a href={social.link}>
-                      <img className="img-social" src={social.icon} alt="social-image" onClick={() => setSelectedSocial(social.icon)} />
-                    </a>
-                  </div>
-              )
-            }
-          </div>
-      </footer>
+
       <div id='overlay' 
           style={{
             visibility: selectedImage ? 'visible': 'hidden',
@@ -105,13 +93,31 @@ function App() {
             // overflow: auto;
            
             
-          }}>TEXT HERE
-        <h1 className="closeDisplay"><a class="close" onClick={ ()=>setSelectedImage(null) }>X</a></h1>
-        <div className="modal-image-container">
-          <img src={selectedImage} />
-        </div>
+          }}>
+          
+             <a className="modal-closeLink" href="#" onClick={ ()=>setSelectedImage(null) }>Close</a>    
+             {/* <h1 className="modal-close"><a class="close" onClick={ ()=>setSelectedImage(null) }>x</a></h1> */}
+          
+          <div className="modal-image-container">
+            <img src={selectedImage} />
+          </div>
         
       </div>
+
+      <footer className="footer"> 
+          <div className="social-container">
+            {
+              social.map(social => 
+                  <div className="social-image-container">
+                    <a href={social.link}>
+                      <img className="img-social" src={social.icon} alt="social-image" onClick={() => setSelectedSocial(social.icon)} />
+                    </a>
+                  </div>
+              )
+            }
+          </div>
+      </footer>
+
     </div>
   );
 }
