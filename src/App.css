@@ -10,6 +10,8 @@
   z-index: 1;
   top: 0;
   left: 0;
+
+  overflow: auto;
 }
 
 .modal-image-container {
@@ -19,18 +21,22 @@
   left: 50%;
   transform: translate(-50%, -50%);
   border-style: solid;
-  border-width: 5px;
-  border-color: white;  
-  height: 50%;
-  width: 50%;  
+  border-width: 4x;
+  border-color: white;
+  height: 80%;
+  width: 80%; 
 }
 
 #overlay img {
   height: 100%;
   width: 100%;
   object-position: 50% 50%;
-  object-fit: cover;
-  border-color: white;
+
+  /* Below are the options how the image will be rendered in modal view */
+  /* Not sure what is the requirements for this assignment but I chose fill for now */
+  object-fit: fill;
+  /* object-fit: cover; */
+  /* object-fit: contain; */
 }
 
 
