@@ -1,5 +1,3 @@
-//import logo from './logo.svg';
-//import logo from '../src/images/old-city-hall.png';
 import image1 from '../src/images/city-skyline.jpg';
 import image2 from '../src/images/old-city-hall.jpg';
 import image3 from '../src/images/cn-tower.jpg';
@@ -10,12 +8,10 @@ import twitter from '../src/images/twitter.svg';
 import facebook from '../src/images/facebook2.svg';
 import linkedin from '../src/images/linkedin.svg';
 import instagram from '../src/images/instagram.svg';
-
 import './App.css';
 import { useState } from 'react';
 
 function App() {
-  // const images = [logo1, logo2, logo3, logo4, logo5, logo6];
 
   const images = [
     {pic: image1, site: "Toronto", desc: "The Skyline"},
@@ -32,10 +28,6 @@ function App() {
     {icon: linkedin, link: "https://ca.linkedin.com/company/city-of-toronto"},
     {icon: instagram, link: "https://www.instagram.com/explore/locations/212991559/toronto-ontario/?hl=en"}];
 
-
-  
-
-
   const [selectedImage, setSelectedImage] = useState(null);
   const [selectedSocial, setSelectedSocial] = useState(null);
 
@@ -47,12 +39,11 @@ function App() {
         </p>
         <p className="p-historical"> Historical Sites & <strong>More</strong></p>
       </header>
+
       <section class="grid">
         {
           images.map(image => 
-
             <div className="galleryItem-container" onClick={() => setSelectedImage(image.pic)}>
-
                   <img className="img" src={image.pic} alt="image" />
                   <div className="imgTxt-container"> 
                       <div className="siteTxt-container">{image.site}</div>                      
@@ -63,45 +54,14 @@ function App() {
         }
       </section>
 
-
-
       <div id='overlay' 
           style={{
             visibility: selectedImage ? 'visible': 'hidden',
-            // background: "linear-gradient(45deg, rgba(29, 236, 197, 0.9), rgba(91, 14, 214, 0.7) 100%)",
-            /*background: "linear-gradient(to right bottom, rgba(255, 255, 255, 1) 50%, rgba(0, 0, 0, 0) 100%)"*/
-
-            
-            // background: 'rgba(0, 0, 0, 0.7)',
-            // zIndex: "2",
-            
-           
-
-            // display: 'flex',
-            // flexDirection: 'column',
-            // justifyContent: 'center',
-            // alignItems:'center'
-
-            // position: fixed;
-            // width: 100%;
-            // height: auto;
-            // top: 0;
-            // left: 0;
-            // background-color: rgba(0, 0, 0, 0.7);
-            // color: white;
-            // z-index: 1;
-            // overflow: auto;
-           
-            
           }}>
-          
-             <a className="modal-closeLink" href="#" onClick={ ()=>setSelectedImage(null) }>Close</a>    
-             {/* <h1 className="modal-close"><a class="close" onClick={ ()=>setSelectedImage(null) }>x</a></h1> */}
-          
+          <a className="modal-closeLink" href="#" onClick={ ()=>setSelectedImage(null) }>Close</a>   
           <div className="modal-image-container">
             <img src={selectedImage} />
           </div>
-        
       </div>
 
       <footer className="footer"> 
