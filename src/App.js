@@ -82,8 +82,11 @@ function App() {
             visibility: selectedImage ? 'visible': 'hidden',
             // background: "linear-gradient(45deg, rgba(29, 236, 197, 0.9), rgba(91, 14, 214, 0.7) 100%)",
             /*background: "linear-gradient(to right bottom, rgba(255, 255, 255, 1) 50%, rgba(0, 0, 0, 0) 100%)"*/
-            background: 'rgba(0, 0, 0, 0.7)',
-            zIndex: "2"
+
+            
+            // background: 'rgba(0, 0, 0, 0.7)',
+            // zIndex: "2",
+            
            
 
             // display: 'flex',
