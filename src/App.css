@@ -10,9 +10,8 @@
   z-index: 1;
   top: 0;
   left: 0;
-
-  /* overflow: auto; */
 }
+
 
 .modal-image-container {
   margin: 0;
@@ -20,9 +19,6 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  /* border-style: solid;
-  border-width: 4x;
-  border-color: white; */
   height: 85%;
   width: 85%; 
 }
@@ -33,14 +29,16 @@
   object-position: 50% 50%;
 
   /* Below are the options how the image will be rendered in modal view */
-  /* Not sure what is the requirements for this assignment but I chose fill for now */
+  /* Not sure what is the requirement for this assignment but I chose contain for now to show the entire image in modal */
   /* object-fit: fill; */
   /* object-fit: cover; */
   object-fit: contain;
-  /* border-style: solid;
-  border-width: 4x;
-  border-color: white; */
-  /* transition: all 2s ease-in; */
+  transition: transform .3s ease;
+}
+
+
+#overlay img:hover {
+  transform: translate(-.35rem) scale(1.05);
 }
 
 
@@ -200,6 +198,14 @@ p {
   text-align: left;   
   font-size: 1vw;
   word-wrap: break-word;
+  }
+
+  .modal-closeLink {
+    position: absolute;
+    margin-top: 10px;
+    right: 25px;
+    color: white;
+    font-size: 9px;
   }
   
 }
