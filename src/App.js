@@ -46,8 +46,7 @@ function App() {
             <div className="galleryItem-container" onClick={() => setSelectedImage(image.pic)}>
                   <img className="img" src={image.pic} alt="image" />
                   <div className="imgTxt-container"> 
-                      <div className="siteTxt-container">{image.site}</div>    
-                      {/* <br></br>                   */}
+                      <div className="siteTxt-container">{image.site}</div>
                       <div className="siteDescTxt-container">{image.desc}</div>
                   </div>
             </div>
