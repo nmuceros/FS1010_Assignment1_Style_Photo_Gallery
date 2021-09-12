@@ -15,6 +15,18 @@
 #overlay img {
   height: 100%;
   width: 100%;
+  object-position: 50% 50%;
+  object-fit: cover;
+}
+
+
+p {
+  text-align: left;
+}
+
+.p-historical {
+  color: grey;
+  font-size: calc(12px + 2vmin);
 }
 
 .grid {
@@ -89,14 +101,6 @@
 
 
 
-p {
-  text-align: left;
-}
-
-.p-historical {
-  color: grey;
-  font-size: calc(12px + 2vmin);
-}
 
 .closeDisplay {
   text-align: center;
@@ -172,10 +176,34 @@ p {
   text-align: center;
 }
 
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other
+@media screen and (max-width: 800px) {
+  .leftColumn, iframe, .rightColumn {
+    width: 100%;
+    margin-top: 0;
+  }
+} */
+
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+
+
+@media only screen and (max-width: 902px) {
+  .App-header {
+    width: 100%;
+  }
+
+  p {
+    font-size: calc(8px + 2vmin);
+  }
+  
+  .p-historical {
+    
+    font-size: calc(6px + 2vmin);
+  }
 }
 
 
@@ -184,6 +212,8 @@ p {
     animation: App-logo-spin infinite 120s linear;
   }
 }
+
+
 
 
 .App-header {
