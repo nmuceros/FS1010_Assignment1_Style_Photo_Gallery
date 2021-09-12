@@ -80,12 +80,33 @@ function App() {
       <div id='overlay' 
           style={{
             visibility: selectedImage ? 'visible': 'hidden',
-            background: "linear-gradient(45deg, rgba(29, 236, 197, 0.9), rgba(91, 14, 214, 0.7) 100%)"
+            // background: "linear-gradient(45deg, rgba(29, 236, 197, 0.9), rgba(91, 14, 214, 0.7) 100%)",
             /*background: "linear-gradient(to right bottom, rgba(255, 255, 255, 1) 50%, rgba(0, 0, 0, 0) 100%)"*/
+            background: 'rgba(0, 0, 0, 0.7)',
+            zIndex: "2"
+           
+
+            // display: 'flex',
+            // flexDirection: 'column',
+            // justifyContent: 'center',
+            // alignItems:'center'
+
+            // position: fixed;
+            // width: 100%;
+            // height: auto;
+            // top: 0;
+            // left: 0;
+            // background-color: rgba(0, 0, 0, 0.7);
+            // color: white;
+            // z-index: 1;
+            // overflow: auto;
+           
             
           }}>TEXT HERE
         <h1 className="closeDisplay"><a class="close" onClick={ ()=>setSelectedImage(null) }>X</a></h1>
-        <img src={selectedImage} />
+        <div className="modal-image-container">
+          <img src={selectedImage} />
+        </div>
         
       </div>
     </div>
