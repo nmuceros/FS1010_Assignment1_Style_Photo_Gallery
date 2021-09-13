@@ -1,6 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
 /*To use: font-family: 'Open Sans', sans-serif; */
 
+html, body {
+  background-size: cover;
+  height: 100%;
+  background-color: #d5d5d5;  
+}
+
 #overlay {
   background: rgba(0, 0, 0, 0.8);
   z-Index: 2;
