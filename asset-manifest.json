@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/muceros__nolita--assignment-1/static/css/main.55fb3644.chunk.css",
+    "main.js": "/muceros__nolita--assignment-1/static/js/main.dea473a3.chunk.js",
+    "main.js.map": "/muceros__nolita--assignment-1/static/js/main.dea473a3.chunk.js.map",
+    "runtime-main.js": "/muceros__nolita--assignment-1/static/js/runtime-main.b185f734.js",
+    "runtime-main.js.map": "/muceros__nolita--assignment-1/static/js/runtime-main.b185f734.js.map",
+    "static/js/2.e8611e0b.chunk.js": "/muceros__nolita--assignment-1/static/js/2.e8611e0b.chunk.js",
+    "static/js/2.e8611e0b.chunk.js.map": "/muceros__nolita--assignment-1/static/js/2.e8611e0b.chunk.js.map",
+    "static/js/3.e876f9d0.chunk.js": "/muceros__nolita--assignment-1/static/js/3.e876f9d0.chunk.js",
+    "static/js/3.e876f9d0.chunk.js.map": "/muceros__nolita--assignment-1/static/js/3.e876f9d0.chunk.js.map",
+    "index.html": "/muceros__nolita--assignment-1/index.html",
+    "static/css/main.55fb3644.chunk.css.map": "/muceros__nolita--assignment-1/static/css/main.55fb3644.chunk.css.map",
+    "static/js/2.e8611e0b.chunk.js.LICENSE.txt": "/muceros__nolita--assignment-1/static/js/2.e8611e0b.chunk.js.LICENSE.txt",
+    "static/media/city-skyline.0a4380e4.jpg": "/muceros__nolita--assignment-1/static/media/city-skyline.0a4380e4.jpg",
+    "static/media/cn-tower.28710afc.jpg": "/muceros__nolita--assignment-1/static/media/cn-tower.28710afc.jpg",
+    "static/media/facebook2.033c50dd.svg": "/muceros__nolita--assignment-1/static/media/facebook2.033c50dd.svg",
+    "static/media/instagram.90a80cd5.svg": "/muceros__nolita--assignment-1/static/media/instagram.90a80cd5.svg",
+    "static/media/linkedin.8fb0cfb6.svg": "/muceros__nolita--assignment-1/static/media/linkedin.8fb0cfb6.svg",
+    "static/media/new-city-hall.f395a360.jpg": "/muceros__nolita--assignment-1/static/media/new-city-hall.f395a360.jpg",
+    "static/media/old-city-hall.bf027f75.jpg": "/muceros__nolita--assignment-1/static/media/old-city-hall.bf027f75.jpg",
+    "static/media/rogers-center.d4a609bd.jpg": "/muceros__nolita--assignment-1/static/media/rogers-center.d4a609bd.jpg",
+    "static/media/rom.38f2ad8d.jpg": "/muceros__nolita--assignment-1/static/media/rom.38f2ad8d.jpg",
+    "static/media/twitter.87682341.svg": "/muceros__nolita--assignment-1/static/media/twitter.87682341.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b185f734.js",
+    "static/js/2.e8611e0b.chunk.js",
+    "static/css/main.55fb3644.chunk.css",
+    "static/js/main.dea473a3.chunk.js"
+  ]
+}
